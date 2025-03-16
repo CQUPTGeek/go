@@ -1,5 +1,5 @@
 # 1. 安装go
-安装地址 go
+安装地址 go<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/8f9ee00628149a12a1939b590430311d.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 
@@ -24,9 +24,9 @@
 # 3. 配置系统环境
 我的电脑，右键  <br>
 
-[![](https://i-blog.csdnimg.cn/blog_migrate/77cd1cca00e049aecda84ff4809548c1.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
-[![](https://i-blog.csdnimg.cn/blog_migrate/c13123a3ea0e38736bf18f9a054723a5.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)  
-在用户变量这里加入GOPATH和GOROOT，并且将GO111MODULE设置成auto。<br>
+[![](https://i-blog.csdnimg.cn/blog_migrate/77cd1cca00e049aecda84ff4809548c1.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
+  然后选 高级系统设置 -> 环境变量 <br>
+在环境变量这里加入GOPATH和GOROOT，并且将GO111MODULE设置成auto。<br>
 GOROOT就是安装go的路径  <br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/1ac9990f71a3a8ff872662aa1e59b3f7.png](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
@@ -61,7 +61,8 @@ Goland安装<br>
 
 
 
-但是注意一下，这个是收费的，但是学生可以免费用。<br>
+但是注意一下，这个是收费的，但是学生可以免费使用。<br>
+具体参考：https://blog.csdn.net/qq_62390970/article/details/132346753 <br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/0fffeb1e03931ce7112a37b6b79c7e33.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/b2edd436abcc35a944935982938457ae.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>

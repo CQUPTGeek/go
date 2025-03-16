@@ -98,3 +98,239 @@ Goland安装<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/8212d9f432b7cc82d58924a61c06e6a8.png)]<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/87e34962bd5ad5b3a33f29fd66df37ba.png)]<br>
 
+# Go语言基础之变量和常量
+
+## 目录
+
+1. 标识符与关键字
+2. 变量
+   - 声明
+   - 初始化
+   - 短变量声明
+   - 匿名变量
+3. 常量
+   - iota
+4. 注意事项
+
+------
+
+## 标识符与关键字123
+
+### 标识符
+
+- 由字母、数字和 `_` 组成，且不能以数字开头。
+- 示例：`abc`, `_`, `_123`, `a123`。
+
+### 关键字（25个）
+
+go
+
+复制
+
+```
+break    default     func    interface  select
+case     defer       go      map        struct
+chan     else        goto    package    switch
+const    fallthrough if      range      type
+continue for         import  return     var
+```
+
+### 保留字（37个）
+
+包括基础类型（如 `int`, `bool`）、常量（如 `true`, `nil`）和内置函数（如 `make`, `panic`）等16。
+
+------
+
+## 变量
+
+### 变量声明
+
+#### 标准声明
+
+go
+
+复制
+
+```
+var 变量名 类型
+var name string
+var age int
+```
+
+#### 批量声明
+
+go
+
+复制
+
+```
+var (
+    a string
+    b int
+    c bool
+)
+```
+
+### 变量初始化12
+
+- **默认值**：整型/浮点型为 `0`，字符串为 `""`，布尔型为 `false`，指针/切片等为 `nil`。
+
+- **显式初始化**：
+
+  go
+
+  复制
+
+  ```
+  var name string = "daizhe"
+  var age, isOK = 18, true
+  ```
+
+### 类型推导
+
+编译器自动推断变量类型：
+
+go
+
+复制
+
+```
+var name = "daizhe"  // 类型为 string
+var age = 18         // 类型为 int
+```
+
+### 短变量声明（函数内使用）
+
+go
+
+复制
+
+```
+func main() {
+    n := 10          // 局部变量
+    m := 200         // 覆盖全局变量m
+    fmt.Println(m, n)
+}
+```
+
+### 匿名变量
+
+使用 `_` 忽略返回值：
+
+go
+
+复制
+
+```
+func foo() (int, string) { return 10, "Q1mi" }
+
+func main() {
+    x, _ := foo()    // 忽略第二个返回值
+    _, y := foo()    // 忽略第一个返回值
+}
+```
+
+------
+
+## 常量
+
+### 基本声明16
+
+go
+
+复制
+
+```
+const pi = 3.1415
+const (
+    e = 2.7182
+    n1 = 100        // n1=100
+    n2              // n2=100（继承上一行）
+)
+```
+
+### iota计数器
+
+- **规则**：从 `0` 开始，每新增一行常量声明递增 `1`。
+
+- **示例**：
+
+  go
+
+  复制
+
+  ```
+  const (
+      a1 = iota    // 0
+      a2           // 1
+      a3           // 2
+  )
+  ```
+
+#### 常见用法
+
+1. **跳过值**：
+
+   go
+
+   复制
+
+   ```
+   const (
+       n1 = iota   // 0
+       n2           // 1
+       _            // 跳过
+       n4           // 3
+   )
+   ```
+
+2. **插队**：
+
+   go
+
+   复制
+
+   ```
+   const (
+       n1 = iota   // 0
+       n2 = 100     // 100
+       n3 = iota    // 2
+   )
+   ```
+
+3. **定义数量级**：
+
+   go
+
+   复制
+
+   ```
+   const (
+       _  = iota
+       KB = 1 << (10 * iota)  // 1 << 10 = 1024
+       MB = 1 << (10 * iota)  // 1 << 20
+   )
+   ```
+
+4. **多值声明**：
+
+   go
+
+   复制
+
+   ```
+   const (
+       a, b = iota+1, iota+2  // 1, 2（iota=0）
+       c, d                    // 2, 3（iota=1）
+   )
+   ```
+
+------
+
+## 注意事项
+
+1. **变量必须使用**：未使用的变量会导致编译错误。
+2. **作用域**：短变量声明 `:=` 仅限函数内部，全局变量需用 `var`。
+3. **匿名变量**：`_` 不占用内存，可重复使用。
+
+

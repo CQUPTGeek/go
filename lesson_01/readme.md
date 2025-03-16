@@ -1,18 +1,18 @@
 # 1. 安装go
 安装地址 go
-[![](https://i-blog.csdnimg.cn/blog_migrate/8f9ee00628149a12a1939b590430311d.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
+[![](https://i-blog.csdnimg.cn/blog_migrate/8f9ee00628149a12a1939b590430311d.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 
 
-下载安装
+下载安装<br>
 
 # 2. 配置go环境
-[![](https://i-blog.csdnimg.cn/blog_migrate/0dfb55ff27cc3bfd3c3d89ac551735a7.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
-[![](https://i-blog.csdnimg.cn/blog_migrate/eb60878234089143abca81afa0592931.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
-[![](https://i-blog.csdnimg.cn/blog_migrate/8bce56e35d60b13cb574ed070fbcc5c6.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
-不建议安装在C盘，
-[![](https://i-blog.csdnimg.cn/blog_migrate/c588f95f328cde364b9ac7a8c897b315.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
-[![](https://i-blog.csdnimg.cn/blog_migrate/348a122c255afac8716bae2f43ea8c25.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
+[![](https://i-blog.csdnimg.cn/blog_migrate/0dfb55ff27cc3bfd3c3d89ac551735a7.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
+[![](https://i-blog.csdnimg.cn/blog_migrate/eb60878234089143abca81afa0592931.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
+[![](https://i-blog.csdnimg.cn/blog_migrate/8bce56e35d60b13cb574ed070fbcc5c6.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
+不建议安装在C盘，<br>
+[![](https://i-blog.csdnimg.cn/blog_migrate/c588f95f328cde364b9ac7a8c897b315.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
+[![](https://i-blog.csdnimg.cn/blog_migrate/348a122c255afac8716bae2f43ea8c25.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 
 
@@ -22,12 +22,12 @@
 安装成功了
 
 # 3. 配置系统环境
-我的电脑，右键  
+我的电脑，右键  <br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/77cd1cca00e049aecda84ff4809548c1.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)
 [![](https://i-blog.csdnimg.cn/blog_migrate/c13123a3ea0e38736bf18f9a054723a5.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)  
-在用户变量这里加入GOPATH和GOROOT，并且将GO111MODULE设置成auto。
-GOROOT就是安装go的路径  
+在用户变量这里加入GOPATH和GOROOT，并且将GO111MODULE设置成auto。<br>
+GOROOT就是安装go的路径  <br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/1ac9990f71a3a8ff872662aa1e59b3f7.png](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 GOPATH就是go下面的bin路径<br>
@@ -35,16 +35,16 @@ GOPATH就是go下面的bin路径<br>
 然后在系统变量上面新建配置，就是你刚刚安装go的路径，这个path！  
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/1028e07d363d6ba5a993acb85e98b2c9.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
-还是你刚刚的安装的路径。  
+还是你刚刚的安装的路径。  <br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/a8f0ca732168353ba9fcb44967f32197.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
-重启一下电脑
+重启一下电脑<br>
 
-搜索cmd  
+搜索cmd  <br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/d3762ef952f2954c4e7a63e4e9f40216.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
-  在cmd打开，就可以看到了
+  在cmd打开，就可以看到了<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/860d510c6d059e25d667de7ccf9821d9.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 
@@ -56,12 +56,12 @@ GOPATH就是go下面的bin路径<br>
 # 4. 安装编译器
 最新版：[安装地址](https://www.jetbrains.com/go/)
 
-Goland安装
+Goland安装<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/194facb36c80ef9fb118c57b6be16ec7.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 
 
-但是注意一下，这个是收费的，但是学生可以免费用。
+但是注意一下，这个是收费的，但是学生可以免费用。<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/0fffeb1e03931ce7112a37b6b79c7e33.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/b2edd436abcc35a944935982938457ae.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
@@ -76,16 +76,16 @@ Goland安装
 
 
 # 5. 激活
-打开之后编译器
+打开之后编译器<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/4410aba743abad5ecda3a22f6e0bb556.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/14edc67b0e53543d3464b73eb1d995eb.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 
 
 
 # 6. HelloWorld
-运行一次HelloWorld
+运行一次HelloWorld<br>
 
-打开Goland编译器！
+打开Goland编译器！<br>
 
 [![](https://i-blog.csdnimg.cn/blog_migrate/3e56498fdcea1a1f083fa60affe68431.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 

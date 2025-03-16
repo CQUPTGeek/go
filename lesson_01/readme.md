@@ -29,7 +29,7 @@
 在环境变量这里加入GOPATH和GOROOT，并且将GO111MODULE设置成auto。<br>
 GOROOT就是安装go的路径  <br>
 
-[![](https://i-blog.csdnimg.cn/blog_migrate/1ac9990f71a3a8ff872662aa1e59b3f7.png](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
+
 GOPATH就是go下面的bin路径<br>
 [![](https://i-blog.csdnimg.cn/blog_migrate/98fdd8945f23e2410b539ebf9799d4b4.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
 然后在系统变量上面新建配置，就是你刚刚安装go的路径，这个path！  

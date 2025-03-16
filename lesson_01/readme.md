@@ -1,6 +1,6 @@
 # 1. 安装go
 安装地址 go<br>
-[![](https://i-blog.csdnimg.cn/blog_migrate/8f9ee00628149a12a1939b590430311d.png)](https://blog.csdn.net/weixin_45304503/article/details/119295577)<br>
+[![](https://i-blog.csdnimg.cn/blog_migrate/8f9ee00628149a12a1939b590430311d.png)]()<br>
 
 
 
